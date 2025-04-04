@@ -1,14 +1,30 @@
 # If Else statements allow for way to represent a yes or no situation or a true or false situation. Examples below
 
+#practice 
 Dozen = True
 if Dozen:
   print("Please note, cupcakes are not individually boxed.")
 else: 
   print ("Cupcakes are individually boxed.")
 
+#practice A menu alerts user to no item being selected to cart.
+cupcake = True
+if cupcake:
+  print ("Yummy Choice!")
+else:
+ print ("Add item to cart.")
 
 
-#Practicee
+#practice. A shipping qualifies for free shipping when over $175
+order_total = True
+if order_total < 175:
+  print (f"Shipping cost is ${shipping_cost}.")
+else: 
+  print ("Shipping cost is free.") 
+
+
+
+#Practice
 
 bakery_name = "YumCakes"
 product_name = "Cupcake"

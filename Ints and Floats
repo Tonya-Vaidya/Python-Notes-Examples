@@ -1,2 +1,10 @@
 # Integers and floats are whole numbers and numbers with decibels, repectively. They are used for math purposes. Example below
 print (6+6)
+
+# practice 
+pizza = "large"
+type = "cheese"
+daily_quantity = 13
+order_number = 222
+
+print(f"The most common pizza order is {type}. Over {daily_quantity * 365} are ordered per year!")

@@ -12,3 +12,17 @@ size = "large"
 order_size = 72
 
 print (f"Three orders are a total of {order_size * 3} t-shirts.") 
+
+bakery_name = "YumCakes"
+product_name = "Cupcake"
+product_type = "single"
+product_type2 = "dozen"
+product_weight_oz = 11.5
+weight_type = "ounces"
+weight_type2 = "lbs"
+product_height_inch = 6.4
+product_width_inch = 6.2
+measure_type_inches = "inches"
+measure_type_feet = "feet"
+
+print (f"For Commercial Orders - {bakery_name} {product_name} {product_type2} weighs {product_weight_oz * 12 / 16} {weight_type2}. Each {product_name} is individually boxed at {product_height_inch} {measure_type_inches} by {product_width_inch} {measure_type_inches}.")

@@ -22,6 +22,13 @@ if order_total < 175:
 else: 
   print ("Shipping cost is free.") 
 
+#practice 
+shopping_cart = 10
+if shopping_cart >=9:
+  print("Purchase a dozen cupcakes for $35.")
+else: 
+  print("Yummy choice!") 
+
 
 
 #Practice

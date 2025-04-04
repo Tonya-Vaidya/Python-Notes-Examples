@@ -1,0 +1,14 @@
+#comment Variables represent information that can change overtime. Input from other sources may change the variable, which will affect code. Example below
+
+color = "blue"
+size = "large"
+order_number = 72
+
+#comment Integers are whole numbers, Floats are decimals. Utilizing formulas can allow for math calculations. Example below.
+
+type = "tshirt"
+color = "blue"
+size = "large"
+order_size = 72
+
+print (f"Three orders are a total of {order_size * 3} t-shirts.") 

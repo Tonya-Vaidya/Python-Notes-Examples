@@ -1,0 +1,38 @@
+# If Else statements allow for way to represent a yes or no situation or a true or false situation. Examples below
+
+Dozen = True
+if Dozen:
+  print("Please note, cupcakes are not individually boxed.")
+else: 
+  print ("Cupcakes are individually boxed.")
+
+
+
+#Practicee
+
+bakery_name = "YumCakes"
+product_name = "Cupcake"
+product_type = "single"
+product_cost = 4
+product_cost2 = 35
+product_type2 = "dozen"
+product_weight_oz = 11.5
+weight_type = "ounces"
+weight_type2 = "lbs"
+product_height_inch = 6.4
+product_width_inch = 6.2
+measure_type_inches = "inches"
+measure_type_feet = "feet"
+shipping_cost = 6
+
+
+print (f"Shipping is {shipping_cost} per {product_type2}. Orders of ${product_cost2 * 5} or more are free.")
+
+
+print (f"Order Total: ${product_cost2 * 5}")
+free_shipping = True
+if free_shipping:
+  print ("You qualify for free shipping!")
+
+
+

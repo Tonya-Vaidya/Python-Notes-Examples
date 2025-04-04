@@ -8,3 +8,19 @@ daily_quantity = 13
 order_number = 222
 
 print(f"The most common pizza order is {type}. Over {daily_quantity * 365} are ordered per year!")
+
+#practice
+
+bakery_name = "YumCakes"
+product_name = "Cupcake"
+product_type = "single"
+product_type2 = "dozen"
+product_weight_oz = 11.5
+weight_type = "ounces"
+product_height_inch = 6.4
+product_width_inch = 6.2
+measure_type_inches = "inches"
+measure_type_feet = "feet"
+
+print (f"{bakery_name}' {product_type} {product_name} are a whopping {product_weight_oz} {weight_type}.")
+print (f"Commercial orders of {bakery_name} {product_name} {product_type2} are {product_weight_oz * 12} {weight_type}.") 

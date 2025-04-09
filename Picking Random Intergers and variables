@@ -28,6 +28,11 @@ print(random_elements)
 
 
 
+##Fortune Cookie example
+
+import random
+lucky_n = random.randint(1,100)
+print(f"Great things come in small packages. Your lucky number is {lucky_n}")
 
 
 

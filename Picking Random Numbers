@@ -1,0 +1,35 @@
+import random
+random_integer = random.randrange(1, 10)
+print(random_integer)
+
+##expected outcome will be a integer between 1 and 10, obviously picked at random
+
+
+## Import a random list 
+
+import random
+my_list = ['a', 'b', 'c']
+random_elements = random.choices(my_list, k=9)
+print(random_elements)
+
+## expected outcome example ['b', 'a', 'c', 'a', 'b', 'a', 'c', 'b', 'a']
+## k=9 is how many integers will be in the random list, k represents "cluster"
+
+
+## adding weighted integers.
+
+import random
+my_list = ['a', 'b', 'c']
+random_elements = random.choices(my_list, weights = [88, 1, 1], k=5)
+print(random_elements)
+
+## there is now a 88 times higher possibility to select "a" than "b" or "c" and only five intergers will be in the cluster
+## Expected outcome example   ['b', 'a', 'a', 'a', 'a']
+
+
+
+
+
+
+
+

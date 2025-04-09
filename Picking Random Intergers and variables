@@ -35,6 +35,23 @@ lucky_n = random.randint(1,100)
 print(f"Great things come in small packages. Your lucky number is {lucky_n}")
 
 
+##fortune cookie with sorted array
+
+import random
+random_ints = [random.randint(1, 100) for _ in range(5)]
+print("Your lucky numbers are:", random_ints.sort(reverse=False), random_ints)
 
 
+
+##fortune cookie with if/else statements
+
+import random
+lucky_n = random.randint(1,100)
+print(f"Your lucky number is {lucky_n}")
+if lucky_n > 70:
+	print("Even a fool who keeps silent is considered wise.")
+elif lucky_n > 50:
+	print("Believe you can and you're halfway there.")
+else:
+	print("Be the change that you wish to see in the world.")
 

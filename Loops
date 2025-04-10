@@ -1,0 +1,13 @@
+## Loops
+
+for numbers in range(5): print(numbers)
+
+for numbers in range(3): print("Hello")
+
+##Expected outcome 1,2,3,4 Hello Hello Hello
+
+
+fruits = ["apple", "banana", "cherry"]
+for items in fruits:
+  print(items)
+## Expected outcome apple banana cherry

@@ -1,15 +1,18 @@
-# Integers and floats are whole numbers and numbers with decibels, repectively. They are used for math purposes. Example below
+## Integers and floats are whole numbers and numbers with decibels, repectively. They are used for math purposes. Example below
 print (6+6)
+##expected outcome 12
 
-# practice 
+## practice 
+
 pizza = "large"
 type = "cheese"
 daily_quantity = 13
 order_number = 222
 
 print(f"The most common pizza order is {type}. Over {daily_quantity * 365} are ordered per year!")
+## expected outcome The most common pizza is cheese. Over 4,745 are ordered per year!
 
-#practice
+##practice
 
 bakery_name = "YumCakes"
 product_name = "Cupcake"
@@ -24,3 +27,17 @@ measure_type_feet = "feet"
 
 print (f"{bakery_name}' {product_type} {product_name} are a whopping {product_weight_oz} {weight_type}.")
 print (f"Commercial orders of {bakery_name} {product_name} {product_type2} are {product_weight_oz * 12} {weight_type}.") 
+## Expected outcome   YumCakes' single Cupcake are a whopping 11.5 ounces. Commercial orders of YumCakes Cupcake dozen are 138.0 ounces.
+
+
+
+
+
+
+
+
+
+
+
+
+

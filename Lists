@@ -1,0 +1,71 @@
+## Print a list of three movies I like
+
+fav_movies = ["Dark City", "Penelope", "Labyrinth"]
+print(fav_movies)
+
+
+## Print only the first listed item. Items are ordered zero+, with the first listed item being the zero
+fav_movies = ["Dark City", "Penelope", "Labyrinth"]
+print(fav_movies[0])
+
+##expected outcome Dark City 
+
+## len is length, which can denote 
+fav_movies = ["Dark City", "Penelope", "Labyrinth"]
+print(fav_movies[0])
+print(len(fav_movies))
+## Expected outcome is 3, since the length of the list is three movies. 
+
+
+## ADD item to a list. You can only add ONE ITEM 
+
+fav_movies = ["Dark City", "Penelope", "Labyrinth"]
+print(fav_movies)
+print(len(fav_movies))
+
+fav_movies.append("10th Kingdom")
+print(fav_movies)
+print(len(fav_movies))
+
+##Expected outcome will list all four movies, with added item at the end of list and length will be four. 
+
+
+## Insert an item into a specific place in the list
+
+fav_movies = ["Dark City", "Penelope", "Labyrinth"]
+fav_movies.append("10th Kingdom")
+fav_movies.insert(1, "Lion King")
+print(fav_movies)
+print(len(fav_movies))
+
+##Expected outcome, Lion King is now the second listed movie. Length is now five items. 
+
+
+## Delete item from list
+fav_movies = ["Dark City", "Penelope", "Labyrinth"]
+fav_movies.append("10th Kingdom")
+fav_movies.insert(1, "Lion King")
+del(fav_movies[2])
+print(fav_movies)
+print(len(fav_movies), "Movies")
+
+## Expected outcome Penelope is missing from list because it was the third item after Dark City and the inserted Lion King
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

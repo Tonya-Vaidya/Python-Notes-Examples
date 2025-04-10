@@ -11,3 +11,27 @@ fruits = ["apple", "banana", "cherry"]
 for items in fruits:
   print(items)
 ## Expected outcome apple banana cherry
+
+
+## Nested loops
+x = ["red", "green", "blue"]
+y = ["circle", "square", "triangle"]
+
+for colors in x:
+    for shapes in y:
+        print(colors, shapes)
+
+## Expected outcome 
+red circle
+red square
+red triangle
+green circle
+green square
+green triangle
+blue circle
+blue square
+blue triangle
+
+
+
+

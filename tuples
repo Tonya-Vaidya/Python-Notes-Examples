@@ -1,0 +1,59 @@
+
+##Tuples are ordered, immutable sequences of items. 
+##They are similar to lists, but once a tuple is created, its elements cannot be modified, added, or removed.
+##Tuples are defined using parentheses () and elements are separated by commas.
+##Tuples are immutable, meaning their elements cannot be changed after creation.
+
+##When to Use Tuples - Tuples are useful for storing collections of items that should not be modified, 
+##     such as coordinates, database records, or function arguments. They are also more memory-efficient than lists.
+
+
+##EXAMPLEs
+
+empty_tuple = ()
+single_element_tuple = (1,)
+my_tuple = (1, "hello", 3.4)
+
+my_tuple = (1, "hello", 3.4)
+print(my_tuple[0])  # Output: 1
+print(my_tuple[1])  # Output: hello
+
+##Tuples are immutable, meaning their elements cannot be changed after creation
+my_tuple = (1, "hello", 3.4)
+# my_tuple[0] = 2  # This will raise a TypeError
+
+
+    ##Concatenation: Tuples can be concatenated using the + operator.
+
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+concatenated_tuple = tuple1 + tuple2
+print(concatenated_tuple)  # Output: (1, 2, 3, 4, 5, 6)
+
+
+   ## Repetition: Tuples can be repeated using the * operator.
+
+my_tuple = (1, 2)
+repeated_tuple = my_tuple * 3
+print(repeated_tuple)  # Output: (1, 2, 1, 2, 1, 2)
+
+      ## Tuples have two built-in methods: 
+
+    count(value): Returns the number of times a specified value occurs in a tuple.
+    index(value): Returns the index of the first occurrence of a specified value.
+
+my_tuple = (1, 2, 2, 6, 2)
+print(my_tuple.count(2))  # Output: 3
+print(my_tuple.index(3))  # Output: 6
+
+
+
+
+
+
+
+
+
+
+
+

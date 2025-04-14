@@ -1,0 +1,48 @@
+##The int() function in Python is used to convert a value into an integer. It can be used in several ways depending on the type of input provided. Here's a detailed explanation:
+
+
+int(x=0)               # Convert x to an integer
+int(x, base=10)        # Convert x (a string) to an integer using the specified base
+
+Parameters:
+
+    x:
+        A number or string that needs to be converted to an integer.
+        If no argument is provided, x defaults to 0.
+
+    base (optional):
+        An integer specifying the base of the number system (e.g., binary, octal, hexadecimal).
+        The default value is 10 (decimal).
+
+Usage:
+1. Convert a Float to an Integer
+
+The int() function truncates the decimal part (does not round the number).
+Python
+
+print(int(8.7))   # Output: 8
+print(int(-2.9))  # Output: -2
+
+2. Convert a String to an Integer
+
+The string must represent a valid integer.
+Python
+
+print(int("42"))        # Output: 42
+print(int("-17"))       # Output: -17
+
+3. Convert a String with a Specified Base
+
+You can specify the base of a number system (e.g., binary, octal, hexadecimal).
+Python
+
+print(int("101", 2))    # Output: 5 (binary to decimal)
+print(int("10", 8))     # Output: 8 (octal to decimal)
+print(int("1A", 16))    # Output: 26 (hexadecimal to decimal)
+
+4. Default Value
+
+If no argument is provided, the result is 0.
+Python
+
+print(int())  # Output: 0

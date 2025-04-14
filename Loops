@@ -52,4 +52,13 @@ for i in range(1, 11):  # Outer loop for rows
   10   20   30   40   50   60   70   80   90  100 
 
 
+## While Loop
+a = [1,2,3,4]
+while True:
+    print(a[0])  
+
+##expected outcome  1,1,1,1,1,1,1...... because you've specified the [0] location of the (a) list. 
+## remove the [0] and it will print the whole list indefinitely. 
+
+
 

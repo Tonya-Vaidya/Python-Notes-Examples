@@ -1,0 +1,71 @@
+## List comprehension in Python offers a concise way to create new lists based on existing iterables.
+##It condenses the logic of a loop into a single line, enhancing code readability and efficiency.  List comprehensions are typically faster than equivalent for loops. 
+##The basic syntax involves an expression, a for clause, and optionally, an if clause for filtering
+
+## A list comprehension allows you to essentially make a for loop in one line while returning a copy of the list that you're iterating over.
+## It also allows you to filter or call functions on every item or of a list. 
+
+##Examples
+my_list = [1,2,3,4,5]
+[2*item for item in my_list]
+## expected outcome [2,4,6,8,10]
+
+mylist = list(range(100))
+fl = [item for item in mylist if item % 10 == 0]
+print(fl) 
+## expected outcome [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+## Without if condition:
+
+# numbers squared in the range 0-4
+new_list = [x**2 for x in range(5)]
+print(new_list)  # Output: [0, 1, 4, 9, 16]
+
+## With if condition:
+
+
+# Squares of even numbers in the range 0-9
+new_list = [x**2 for x in range(10) if x % 2 == 0]
+print(new_list)  # Output: [0, 4, 16, 36, 64]
+
+## Example of list comprehensions with functions. 
+
+##Splitting 
+
+
+Tonya
+
+intro = 'My name is Tonya Vaidya. I live on Scott AFB.'
+result = intro.split('.') 
+## Expected outcome  ['My name is Tonya Vaidya', ' I live on Scott AFB', '']
+
+intro = 'My name is Tonya Vaidya. I live on Scott AFB.'
+result = intro.split()
+## Expected outcome ['My', 'name', 'is', 'Tonya', 'Vaidya.', 'I', 'live', 'on', 'Scott', 'AFB.']
+
+intro = 'My name is Tonya Vaidya. I live on Scott AFB.'
+result = intro.split()
+##expected outcome  Tonya
+
+
+## Split and "clean" the words so they are lowercase have have no addition punctuation. 
+
+intro = 'How much wood would a wood chuck chuck. If a wood chuck could chuck wood.'
+def cleanWord(word):
+    return word.replace('.', '').lower()
+cleanWord(word) for word in intro.split()
+##Expected outcome  ['how', 'much', 'wood', 'would', 'a', 'wood', 'chuck', 'chuck', 'if', 'a', 'wood', 'chuck', 'could', 'chuck', 'wood']
+
+
+
+
+
+
+
+
+
+
+
+
+
+

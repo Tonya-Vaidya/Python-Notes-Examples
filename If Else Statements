@@ -1,4 +1,10 @@
-# If Else statements allow for way to represent a yes or no situation or a true or false situation. Examples below
+# If Else statements allow for way to represent a yes or no situation or a true or false situation. 
+
+The if, elif, and else statements are used to control the flow of execution in a Python program based on conditions. 
+
+    if statement: Executes a block of code if a condition is true.
+    elif statement: (else if) Checks for an additional condition if the previous if or elif condition is false.
+    else statement: Executes a block of code if all preceding if and elif conditions are false.
 
 #practice 
 Dozen = True

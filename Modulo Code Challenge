@@ -1,4 +1,5 @@
-#Determine if a number is even or odd using the Modulo Code Challenge in the Linkedin Learning course. Given a number, determine if it is odd or even. If even return False, if odd, return True.
+#Determine if a number is even or odd using the Modulo Code Challenge in the Linkedin Learning course. Given a number, determine if it is odd or even.
+If even return False, if odd, return True.
 
 
 number = 7
@@ -9,3 +10,18 @@ if remainder == 1:
   print("odd")
 else:
   print("even")
+
+# expected outcome 1, odd
+
+
+number = 10
+remainder = number % 2
+print(remainder)
+
+if remainder == 1:
+  print("odd")
+else:
+  print("even")
+
+
+expected outcome 0, even

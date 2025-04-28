@@ -6,3 +6,5 @@ random_numbers = random.sample(range(1, 100), 5)
 sorted_numbers = sorted(random_numbers)
 print("Powerball numbers are", sorted_numbers)
 
+expected outcome example 
+Powerball numbers are [4, 12, 15, 27, 54]

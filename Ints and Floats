@@ -31,7 +31,22 @@ print (f"Commercial orders of {bakery_name} {product_name} {product_type2} are {
 
 
 
+org_name = "Thread Up"
+product_name = "Custom T-shirt"
+p_type1 = "Embroidery"
+p_type2 = "Print"
+sizes = ["Small", "Medium", "Large", "X-Large"]
+p_material = "100% Cotton"
+p_color = ["White", "Black", "Navy", "Maroon", "Forest Green", "Neon Yellow"]
+p1_cost = "$23.99"
+p2_cost = "$19.99"
+p3_cost = "$.23"
+p3_cost_measure = "inches"
 
+
+print (f"{bakery_name}' {product_type} {product_name} are a whopping {product_weight_oz} {weight_type}.")
+print (f"Commercial orders of {bakery_name} {product_name} {product_type2} are {product_weight_oz * 12} {weight_type}.") 
+## Expected outcome   YumCakes' single Cupcake are a whopping 11.5 ounces. Commercial orders of YumCakes Cupcake dozen are 138.0 ounces.
 
 
 

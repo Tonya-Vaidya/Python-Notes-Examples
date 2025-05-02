@@ -49,7 +49,24 @@ print(my_tuple.index(3))  # Output: 6
 
 
 
+org_name = "Thread Up"
+product_name = "Custom T-Shirts"
+p_type1 = "Embroidery"
+p_type2 = "Print"
+sizes = ("Small", "Medium", "Large", "X-Large", "XX-Large")
+p_material = "100% Cotton"
+p_colors = ["White", "Black", "Navy", "Maroon", "Forest Green", "Neon Yellow"]
+p1_cost = "$23.99"
+p2_cost = "$19.99"
+p3_cost = "$.23"
+p3_cost_measure = "square inch"
 
+
+print (f"{org_name} has {product_name} available in {p_type1} and {p_type2}.")
+print (f"{product_name} sizes are now available in {sizes[4]}.")
+print (f"{(", ".join(p_colors))} available in {p_material}.")
+print (f"{p_type2} t-shirts are {p2_cost}.")
+print (f"{p_type1} t-shirts are {p1_cost}. An additional {p3_cost} per {p3_cost_measure}.")
 
 
 

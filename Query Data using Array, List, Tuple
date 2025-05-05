@@ -1,0 +1,47 @@
+## Example using Array
+
+from array import array
+
+car_vins = array('i', [121, 132, 143, 156, 167])
+
+
+def find_vin(vin):
+    if vin in car_vins:
+        print(f"Car Vin {vin} found!")
+    else:
+        print(f"Car Vin {vin} not found.")
+
+
+find_vin(121) #Car Vin 121 found!
+find_vin(110)  #Car Vin 110 not found.
+
+
+
+## Example using List
+
+list_title = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
+
+def search(list_item):
+    if list_item in list_title:
+        print(f"Name '{list_item}' found!")
+    else:
+        print(f"Name '{list_item}' not found.")
+
+search("Alice")   # Output: Name 'Alice' found!
+search("Zara")    # Output: Name 'Zara' not found.
+
+
+
+
+# Tuple example
+
+products = ("laptop", "smartphone", "tablet", "smartwatch", "camera")
+
+def find_product(product_name):
+    if product_name in products:
+        print(f"Product '{product_name}' is available!")
+    else:
+        print(f"Product '{product_name}' is not available.")
+
+find_product("laptop")      # Output: Product 'laptop' is available!
+find_product("television")  # Output: Product 'television' is not available.

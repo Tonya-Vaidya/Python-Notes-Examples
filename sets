@@ -1,6 +1,6 @@
 
 
-##Python sets are unordered collections of unique elements, meaning that they do not allow duplicate values. 
+##Python sets are unordered collections of unique elements, meaning that they do not allow duplicate values. A set automatically removes duplicates.
 ##Sets are mutable, so it is possible to add or remove elements after the set has been created. 
 ##Sets are commonly used for membership testing, removing duplicates, and performing mathematical set operations like union, intersection, and difference.
 ## Sets are not fetchable or slicable due to random placement. So no myset[0]. 

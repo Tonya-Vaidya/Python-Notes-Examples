@@ -35,11 +35,15 @@ lucky_n = random.randint(1,100)
 print(f"Great things come in small packages. Your lucky number is {lucky_n}")
 
 
-##fortune cookie with sorted array
+##fortune cookie with sorted set to prevent duplicates
 
 import random
-random_ints = [random.randint(1, 100) for _ in range(5)]
-print("Your lucky numbers are:", random_ints.sort(reverse=False), random_ints)
+
+unique_numbers = set()
+while len(unique_numbers) < 5: 
+    unique_numbers.add(random.randint(1, 100))
+
+print("Your lucky numbers are", sorted(unique_numbers))
 
 
 

@@ -1,8 +1,20 @@
-## Create a set of five random numbers, sorted in ascending order, with no duplicates.
-
+## Create five random numbers, sorted in ascending order, with no duplicates.
 
 import random
 random_numbers = random.sample(range(1, 100), 5)
 sorted_numbers = sorted(random_numbers)
 print("Powerball numbers are", sorted_numbers)
+
+# expected outcome example 
+# Powerball numbers are [4, 12, 15, 27, 54]
+
+## convert the list to a string without brackets 
+
+import random
+powerball = random.sample(range(1, 100), 5)
+sorted_numbers = sorted(powerball)
+print("Your Powerball numbers are", ', '.join(map(str, sorted_numbers)))
+
+# expected outcome example 
+# Your Powerball numbers are 4, 12, 15, 27, 54
 

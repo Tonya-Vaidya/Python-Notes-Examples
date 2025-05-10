@@ -1,0 +1,76 @@
+
+##Tuples are ordered, immutable sequences of items. 
+##They are similar to lists, but once a tuple is created, its elements cannot be modified, added, or removed.
+##Tuples are defined using parentheses () and elements are separated by commas.
+##Tuples are immutable, meaning their elements cannot be changed after creation.
+
+##When to Use Tuples - Tuples are useful for storing collections of items that should not be modified, 
+##     such as coordinates, database records, or function arguments. They are also more memory-efficient than lists.
+
+
+##EXAMPLEs
+
+empty_tuple = ()
+single_element_tuple = (1,)
+my_tuple = (1, "hello", 3.4)
+
+my_tuple = (1, "hello", 3.4)
+print(my_tuple[0])  # Output: 1
+print(my_tuple[1])  # Output: hello
+
+##Tuples are immutable, meaning their elements cannot be changed after creation
+my_tuple = (1, "hello", 3.4)
+# my_tuple[0] = 2  # This will raise a TypeError
+
+
+    ##Concatenation: Tuples can be concatenated using the + operator.
+
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+concatenated_tuple = tuple1 + tuple2
+print(concatenated_tuple)  # Output: (1, 2, 3, 4, 5, 6)
+
+
+   ## Repetition: Tuples can be repeated using the * operator.
+
+my_tuple = (1, 2)
+repeated_tuple = my_tuple * 3
+print(repeated_tuple)  # Output: (1, 2, 1, 2, 1, 2)
+
+      ## Tuples have two built-in methods: 
+
+    count(value): Returns the number of times a specified value occurs in a tuple.
+    index(value): Returns the index of the first occurrence of a specified value.
+
+my_tuple = (1, 2, 2, 6, 2)
+print(my_tuple.count(2))  # Output: 3
+print(my_tuple.index(3))  # Output: 6
+
+
+
+
+org_name = "Thread Up"
+product_name = "Custom T-Shirts"
+p_type1 = "Embroidery"
+p_type2 = "Print"
+sizes = ("Small", "Medium", "Large", "X-Large", "XX-Large")
+p_material = "100% Cotton"
+p_colors = ["White", "Black", "Navy", "Maroon", "Forest Green", "Neon Yellow"]
+p1_cost = "$23.99"
+p2_cost = "$19.99"
+p3_cost = "$.23"
+p3_cost_measure = "square inch"
+
+
+print (f"{org_name} has {product_name} available in {p_type1} and {p_type2}.")
+print (f"{product_name} sizes are now available in {sizes[4]}.")
+print (f"{(", ".join(p_colors))} available in {p_material}.")
+print (f"{p_type2} t-shirts are {p2_cost}.")
+print (f"{p_type1} t-shirts are {p1_cost}. An additional {p3_cost} per {p3_cost_measure}.")
+
+
+
+
+
+
+
